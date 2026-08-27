@@ -1,10 +1,5 @@
 package com.patrones.u2;
 
-public class ExcelHeaderFooter {
-    
-}
-package com.patrones.u2;
-
 public class ExcelHeaderFooter implements ReportHeaderFooter {
     @Override
     public String renderHeader(String institutionName) {
